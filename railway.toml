@@ -1,3 +1,13 @@
+[build]
+builder = "DOCKERFILE"
+
+[deploy]
+startCommand = ""
+
+[[services]]
+name = "miniflux"
+port = 8080
+
 DATABASE_URL=:memory:
 RUN_MIGRATIONS=1
 CREATE_ADMIN=1
