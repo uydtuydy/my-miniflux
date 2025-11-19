@@ -1,0 +1,9 @@
+[build]
+builder = "DOCKERFILE"
+
+[deploy]
+startCommand = ""
+
+[[services]]
+name = "miniflux"
+port = 8080
