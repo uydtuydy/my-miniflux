@@ -1,6 +1,6 @@
 FROM miniflux/miniflux:2.0.45
 
-ENV DATABASE_URL=:memory:
+ENV DATABASE_URL=sqlite::memory:
 ENV RUN_MIGRATIONS=1
 ENV CREATE_ADMIN=1
 ENV ADMIN_USERNAME=admin
