@@ -7,10 +7,3 @@ startCommand = ""
 [[services]]
 name = "miniflux"
 port = 8080
-
-DATABASE_URL=:memory:
-RUN_MIGRATIONS=1
-CREATE_ADMIN=1
-ADMIN_USERNAME=admin
-ADMIN_PASSWORD=123456
-PORT=8080
