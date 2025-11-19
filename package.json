@@ -1,0 +1,7 @@
+{
+  "name": "my-miniflux",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "./start.sh"
+  }
+}
